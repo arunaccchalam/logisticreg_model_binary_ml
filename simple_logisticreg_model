@@ -9,7 +9,7 @@ from sklearn.metrics import accuracy_score,confusion_matrix,classification_repor
 from sklearn.metrics import precision_recall_curve,plot_precision_recall_curve,plot_roc_curve
 
 #data
-df = pd.read_csv('../DATA/hearing_test.csv')
+df = pd.read_csv('hearing_test.csv')
 df.head()
 
 #getting information about the dataset
